@@ -1,7 +1,13 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+
+
 ul {
-    list-style-type: none; /*List-stil-typ anger typen av listobjektmarkör i en lista.*/
-    margin: 0; /*CSS-marginegenskaperna används för att skapa utrymme runt element utanför eventuella definierade gränser.*/
-    padding: 0; /*CSS-polstringsegenskaperna används för att generera utrymme runt ett elements innehåll, inuti alla definierade gränser.*/
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
   }
   
   li {
@@ -13,7 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden; 
-    background-color: black;
+    background-color: #0F2135;
   }
   
   li {
@@ -24,14 +30,24 @@ ul {
     display: block;
     color: white; 
     text-align: center;
-    padding: 14px 16px;
+    padding: 36px 16px;
     text-decoration: none; 
-    font-family: sans-serif;
+    font-family:'Oswald Semi Bold', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 18px;
   }
   
   li a:hover { 
     background-color: rgb(0, 189, 255); 
                         
-  
   }
   
+  img {
+      width: 211px;
+      float: left;
+  }
+
+  .contact {
+      float: right;
+      padding-right: 20px;
+  }
