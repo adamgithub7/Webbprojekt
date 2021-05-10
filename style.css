@@ -84,9 +84,9 @@ ul {
   .text {
     color: #f2f2f2;
     font-size: 40px;
-    padding: 8px 12px;
+    padding: 70px 12px;
     position: absolute;
-    bottom: 390px;
+    bottom: 34px;
     left: 10px;
     width: 100%;
     text-align: left;
@@ -130,4 +130,13 @@ ul {
 
 #articleimages > img {
     width: 500px;
+    float: left;
+}
+
+#game1 > h1 {
+    color: aqua;
+    font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: top;
+    float: left;
+    padding-left: 20px;
 }
