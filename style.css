@@ -1,3 +1,5 @@
+* {box-sizing:border-box}
+
 body {
     background-color: rgb(27, 27, 27);
 }
@@ -50,4 +52,77 @@ ul {
   .contact {
       float: right;
       padding-right: 20px;
+  }
+
+  .header1 {
+      color: white;
+      font-family: 'Lato Bold', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .text1 {
+    color: white;
+    font-family: 'Roboto Medium', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Lato Bold', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 20px 10px;
+    background-color: rgb(55, 205, 243);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
   }
