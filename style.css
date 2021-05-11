@@ -128,9 +128,12 @@ ul {
     to {opacity: 1}
   }
 
+
+
 #article1 > img {
     width: 500px;
     float: left;
+    margin: auto;
 }
 
 #game1 > h1 {
@@ -154,3 +157,39 @@ ul {
     padding-left: 20px;
     font-size: 20px;
 }
+
+
+#twitter > img {
+    width: 70px;
+}
+
+#facebook > img {
+    width: 77px;
+    top: 10px;
+    right: 550px;
+    position: absolute;
+}
+
+#instagram > img {
+    width: 45px;
+    top: 10px;
+    right: 500px;
+    position: absolute;
+}
+
+#youtube > img {
+    width: 70px;
+    top: 10px;
+    right: 680px;
+    position: absolute;
+    border-radius: 0%;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: #FFF09F;
+    color: rgb(1, 1, 53);
+    margin-top: 90px;
+    text-align: center;
+  }
