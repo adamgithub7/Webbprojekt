@@ -86,12 +86,12 @@ ul {
     font-size: 40px;
     padding: 70px 12px;
     position: absolute;
-    bottom: 34px;
+    bottom: 1180px;
     left: 10px;
     width: 100%;
     text-align: left;
     font-family: 'Lato Bold', Tahoma, Geneva, Verdana, sans-serif;
-    outline: #0F2135;
+    text-decoration: underline;
   }
   
   
