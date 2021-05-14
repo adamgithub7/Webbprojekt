@@ -4,7 +4,12 @@ body {
     background-color: rgb(27, 27, 27);
 }
 
-
+button {
+    margin-left: 20px;
+    background-color: #ffffff;
+    font-family: 'Oswald', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
 
 ul {
     list-style-type: none; 

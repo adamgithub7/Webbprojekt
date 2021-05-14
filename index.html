@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AllTime eSports</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -12,6 +12,7 @@
 </head>
 <body>
     
+    <div class="navbar">
     <ul>
         <div id="logo1">
         <img src="images/logo2.png">
@@ -23,13 +24,17 @@
             <li><a href="deeznuts.css"> Contact </a></li>
         </div>
     </ul> 
+    </div>
+
 
     <div class="header1">
     <h1>League of Legends</h1>
     </div>
     <div class="text1">
-    <p>AllTime Esports’ coverage of League of Legends includes covering all of the latest news for the game. <br> We also cover its players, teams and major events. Additionally we offer guides, opinion articles and reviews of new updates and patches.</p>
+    <p id="paragraph1">AllTime Esports’ coverage of League of Legends includes covering all of the latest news for the game. <br> We cover its players, teams and major events. Additionally we offer guides, opinion articles and reviews of new updates and patches.</p>
     </div>
+
+    <button type="button" onclick='document.getElementById("paragraph1").innerHTML = "AllTime Esports’ coverage of League of Legends includes covering all of the latest news for the game. <br> We cover its players, teams and major events. Additionally we offer guides, opinion articles and reviews of new updates and patches. <br> <br> eSports describes the world of competitive, organized video gaming. Competitors from different leagues or teams face off in the same games that are popular with at-home gamers: Fortnite, League of Legends, Counter-Strike, Call of Duty, Overwatch and Madden NFL, to name a few."'>More info!</button>
 
     <div class="slideshow-container">
 
